@@ -1,0 +1,21 @@
+The user registration and management system would require :
+1- A table of users that contain user id, user name user e-mail and users authorization status
+  1a- user Id should be an auto incremented value and authorization value should be a boolean value (enabled/disabled)
+  1b-table entries should be able to be sorted alphanumerically and oppsite oppsite order.
+
+2- Administrator should be able to add new users
+  2a- The following information should be provided for new users:
+      *User name
+      *Display name to be displayed in the table
+      *Phone number
+      *Email
+      *User role to be selected from a drop-down menu (Guest/Admin/SuperAdmin)
+      *Authorization status to select in the checkbox
+
+3- To add new users admin should click new user button and fill the form that meets the specified requirements.
+
+4-To update users' information admin should select the user from the table and change the necessary information on the same form used to add a new user.
+
+6- When the form is filled out, the save user button should be active and the administrator should be able to save the changes.
+
+7-Admin should be able to filter out disabled users from the table via a checkbox
